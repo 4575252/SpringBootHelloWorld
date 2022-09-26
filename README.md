@@ -9,7 +9,7 @@
 * 页面信息：hello页面提供访问者ip、服务器ip，和基于session的计数器，方便集群环境中检查和测试！比如nginx负载均衡中可以方便看到实际分发的机器和会话传递情况。
 * CentOS中部署到tomcat的webapp目录中
 ```shell
-wget -O /root/hello.jar https://github.com/4575252/SpringBootHelloWorld/blob/master/hello.jar
+wget -O /root/hello.jar https://raw.githubusercontent.com/4575252/SpringBootHelloWorld/master/hello.jar
 java - jar /root/hello.jar
 ```
 
